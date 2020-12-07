@@ -3,6 +3,13 @@
     <string name="back">Back</string>
     <string name="movie_details">Movie Details</string>
 
+    <!-- Movies List -->
+
+    <string name="movies_list">Movies list</string>
+    <string name="avengers_end_game_name">Avengers: End Game</string>
+    <string name="film_genre">Action, Adventure, Fantasy</string>
+    <string name="film_time">137 MIN</string>
+
     <!-- Movie Details -->
 
     <string name="avengers_end_game">Avengers: \nEnd Game</string>
