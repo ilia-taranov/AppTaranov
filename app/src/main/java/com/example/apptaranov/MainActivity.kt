@@ -2,6 +2,7 @@ package com.example.apptaranov
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.apptaranov.screens.movieList.FragmentMoviesList
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
