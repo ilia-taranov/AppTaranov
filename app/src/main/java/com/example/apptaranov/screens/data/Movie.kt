@@ -1,4 +1,4 @@
-package com.android.academy.fundamentals.homework.features.data
+package com.example.apptaranov.screens.data
 
 data class Movie(
     val id: Int,

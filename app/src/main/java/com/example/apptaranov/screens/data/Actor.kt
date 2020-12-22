@@ -1,4 +1,4 @@
-package com.android.academy.fundamentals.homework.features.data
+package com.example.apptaranov.screens.data
 
 data class Actor(
     val id: Int,
