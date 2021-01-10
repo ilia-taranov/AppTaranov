@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bumptech.glide.Glide
 import com.example.apptaranov.R
 import com.example.apptaranov.data.Movie
 import com.example.apptaranov.screens.movieDetails.recyclerView.ActorAdapter
@@ -33,13 +34,15 @@ class FragmentMoviesDetails : Fragment() {
 
     private fun configureElements() {
         movie_name_text_view.text = movie.title
-        genre_tags_text_view.text = movie.annotation
-        PG_rating_text_view.text = movie.ageLimit
+        genre_tags_text_view.text = movie.getGenres()
+        PG_rating_text_view.text = context?.getString(R.string.minimum_age, movie.minimumAge)
+        reviews_text_view.text = context?.getString(R.string.review_count, movie.numberOfRatings)
+        movie_description_text_view.text = movie.overview
 
-        val reviewCount = "${movie.reviewsCount} ${context?.getString(R.string.review_count)}"
-        reviews_text_view.text = reviewCount
-
-        movie_description_text_view.text = movie.description
+        Glide
+            .with(this)
+            .load(movie.backdrop)
+            .into(poster_image_view)
     }
 
     private fun configureRecyclerView() {

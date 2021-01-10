@@ -1,4 +1,4 @@
-package com.example.apptaranov.screens.data
+package com.example.apptaranov.data
 
 import android.content.Context
 import kotlinx.coroutines.Dispatchers

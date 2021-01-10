@@ -8,7 +8,8 @@
     <string name="movies_list">Movies list</string>
     <string name="avengers_end_game_name">Avengers: End Game</string>
     <string name="film_genre">Action, Adventure, Fantasy</string>
-    <string name="min">MIN</string>
+    <string name="min">%1$d MIN</string>
+    <string name="minimum_age">%1$d+</string>
 
     <!-- Movie Details -->
 
@@ -17,7 +18,7 @@
     <string name="cast">Cast</string>
     <string name="age_rating">13+</string>
     <string name="action_adventure_fantasy">Action, Adventure, Fantasy</string>
-    <string name="review_count">reviews</string>
+    <string name="review_count">%1$d reviews</string>
     <string name="description">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos\' actions and restore balance to the universe.</string>
     <string name="robert_downey_jr">Robert Downey Jr.</string>
     <string name="chris_evans">Chris Evans</string>

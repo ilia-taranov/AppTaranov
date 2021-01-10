@@ -13,7 +13,7 @@
         <ImageView
             android:id="@+id/cover_image_view"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:layout_marginStart="1dp"
             android:layout_marginEnd="1dp"
@@ -61,7 +61,7 @@
             android:gravity="center_vertical|start"
             android:textSize="8sp"
             android:textColor="@color/radical_red"
-            android:text="@string/film_genre"
+            tools:text="@string/film_genre"
             app:layout_constraintBottom_toTopOf="@+id/movie_reviews_count_text"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="SmallSp" />
